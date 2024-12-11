@@ -1,0 +1,9 @@
+Metode Roberts:
+- Operator Roberts menggunakan kernel kecil (2x2) untuk mendeteksi perubahan intensitas pada arah diagonal.
+- Deteksi tepi dengan metode ini lebih sensitif terhadap perubahan intensitas yang tajam, sehingga cocok untuk mendeteksi detail halus.
+- Kekurangan: Hasilnya mungkin terlihat kurang halus dibandingkan metode Sobel, terutama jika terdapat noise.
+
+Metode Sobel:
+- Operator Sobel menggunakan kernel yang lebih besar (3x3), yang memungkinkan deteksi gradien lebih halus.
+- Deteksi tepi dengan metode ini menghasilkan tepi yang lebih jelas dan lebih robust terhadap noise dibandingkan Roberts.
+- Cocok untuk mendeteksi tepi objek dengan perubahan intensitas yang lebih besar.
